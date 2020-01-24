@@ -1,0 +1,62 @@
+Pseudocode Challenge
+Soal ini terdiri dari 4 nomor!
+-----------------------------------------------------------------------------------------------------------------------------------------
+1. Newton Second Law
+Bunyi hukum II Newton adalah:
+Percepatan sebuah benda akan sebanding dengan gaya yang diberikan pada benda dan berbanding terbalik dengan massa benda. 
+Arah percepatan benda sama dengan arah gaya total yang diberikan pada benda.
+Secara matematis hukum II Newton dirumuskan sebagai berikut: ΣF = m x a
+ΣF = resultan gaya (Newton)
+m = massa benda (kg)
+a = percepatan benda (m/s2)
+Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang 
+memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+
+Jawab:
+START
+INPUT m = 2 m/s2;
+INPUT a = 600 kg;
+COMPUTE EF = m * a;
+SAVE result;
+SHOW EF = 1200n;
+END
+-----------------------------------------------------------------------------------------------------------------------------------------
+2. Tahun Kabisat
+Apa yang kamu ketahui tentang tanggal 29 Februari? Kamu pasti tahu jika suatu tahun memiliki tanggal 29 Februari 
+berarti tahun tersebut merupakan tahun kabisat.
+Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
+Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
+
+Jawab:
+START
+INPUT tahun
+IF tahun dibagi 4 sama dengan 0
+IF tahun dibagi 100 tidak sama dengan 0 atau tahun dibagi 100 sama dengan 0  dan 400 sama dengan 0
+DEFINE tahun kabisat
+-----------------------------------------------------------------------------------------------------------------------------------------
+3. Laundry Day
+Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. 
+Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma & pseudocode perulangan!
+
+Jawab:
+Input: pakaian yang akan dicuci = 20
+IF semua pakaian sudah masuk mesin cuci akan menyala
+COUNT jumlah pakaian yang masuk ke mesin cuci
+PROSES jumlah pakaian = 20
+selesai
+-----------------------------------------------------------------------------------------------------------------------------------------
+4. Periksa Kuku
+Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. 
+Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, 
+jika tidak guru akan memuji siswa/siswi tersebut.
+Buatlah algoritma & pseudocode untuk permasalahan diatas.
+
+Jawab:
+Guru mengecek kuku murid
+IF murid kuku nya panjang
+Guru menghukum murid itu
+Else 
+Guru memuji murid tersebut
